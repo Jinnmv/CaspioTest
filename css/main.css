@@ -58,9 +58,7 @@ textarea {
 
 
 .cas_table td {
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
+    margin: .2em;
     border: 1px solid gray;
 }
 
