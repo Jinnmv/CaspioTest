@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="../css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -26,13 +28,13 @@
         <td>Travel Cup</td>
         <td>desc</td>
         <td>$15.99</td>
-        <td> <input id="paypal-button" type="button" value="Submit"><script src="https://www.paypalobjects.com/api/button.js?"
+        <td> <input id="paypal-button" type="submit" value="Submit"><script src="https://www.paypalobjects.com/api/button.js?"
      data-merchant="braintree"
      data-id="paypal-button"
      data-button="checkout"
-     data-color="gold"
+     data-color="blue"
      data-size="medium"
-     data-shape="pill"
+     data-shape="rect"
      data-button_type="submit"
      data-button_disabled="false"
  ></script></td>
@@ -42,6 +44,16 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+	<script>
+	    window.paypalCheckoutReady = function() {
+	      paypal.checkout.setup("6XF3MPZBZV6HU", {
+		locale: 'en_US',
+		environment: 'sandbox',
+		container: ['t1', 't2']
+	      });
+	    }
+  	</script>
+	<script async src="//www.paypalobjects.com/api/checkout.js"></script>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
