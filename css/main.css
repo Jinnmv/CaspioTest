@@ -57,7 +57,12 @@ textarea {
    ========================================================================== */
 
 
-
+.cas_table td {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: 1px solid gray;
+}
 
 
 
