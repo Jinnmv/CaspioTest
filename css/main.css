@@ -136,7 +136,7 @@ textarea {
     /* Retina-specific stuff here */
     .item input[type="checkbox"],
     .item input[type="radio"] {
-        margin: 0 auto; /* vertical adjustment. Need to check on all devices */
+        margin: -1px auto; /* vertical adjustment. Need to check on all devices */
     }
 }
 
