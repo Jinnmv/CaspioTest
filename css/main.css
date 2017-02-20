@@ -140,6 +140,16 @@ textarea {
     }
 }
 
+@media 
+(-webkit-min-device-pixel-ratio: 3), 
+(min-resolution: 288dpi) { 
+    /* Retina-specific stuff here */
+    .item input[type="checkbox"],
+    .item input[type="radio"] {
+        margin: -1px auto; /* vertical adjustment. Need to check on all devices */
+    }
+}
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
