@@ -126,7 +126,7 @@ textarea {
     .item input[type="checkbox"],
     .item input[type="radio"] {
         vertical-align: text-bottom;
-        margin: .166 auto; /* vertical adjustment. Need to check on all devices */
+        margin: .166em auto; /* vertical adjustment. Need to check on all devices */
     }
 }
 
