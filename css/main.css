@@ -76,9 +76,9 @@ textarea {
 }
 
 .item {
-    padding: 0 1em;
-    height: 2em;
+    padding: .25em 1em;
     box-sizing: border-box;
+    min-width: 10em;
 }
 
 .item:hover {
