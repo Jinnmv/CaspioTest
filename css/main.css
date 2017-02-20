@@ -56,6 +56,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.flexbox {
+    display: flex;
+}
 
 .cas_table td {
     padding: .2em;
