@@ -103,7 +103,7 @@ textarea {
 .item input[type="radio"] {
     vertical-align: text-bottom;
     position: relative;
-    top: -.083em; /* vertical adjustment. Need to check on all devices */
+    /*top: -.083em;*/ /* vertical adjustment. Need to check on all devices */
 }
 .item label {
     margin-left: .5em;
