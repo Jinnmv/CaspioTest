@@ -60,6 +60,11 @@ textarea {
     display: flex;
 }
 
+.cas-typography {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+
 .cas_table td {
     padding: .2em;
     border: 1px solid gray;
@@ -70,6 +75,10 @@ textarea {
     margin-right: auto;
 }
 
+.cb-align .item {
+    padding: 0 1em;
+    
+}
 
 
 
