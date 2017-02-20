@@ -84,6 +84,10 @@ textarea {
     background-color: #6D8189;
 }
 
+.item:hover {
+    color: #FFF;
+}
+
 .item label {
     margin-left: .5em;
 }
