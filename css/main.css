@@ -63,6 +63,7 @@ textarea {
 .cas-typography {
     font-size: 12px;
     font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    color: #333;
 }
 
 .cas_table td {
