@@ -75,9 +75,13 @@ textarea {
     margin-right: auto;
 }
 
-.cb-align .item {
+.item {
     padding: 0 1em;
     height: 2em;
+}
+
+.item:hover {
+    background-color: #6D8189;
 }
 
 .item label {
