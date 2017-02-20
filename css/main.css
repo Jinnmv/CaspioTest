@@ -81,13 +81,6 @@ textarea {
     padding: .25em .5em;
     box-sizing: border-box;
     
-    /* Flexbox */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: space-around;
-    
     /* No Select */
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -109,7 +102,7 @@ textarea {
 .item input[type="checkbox"],
 .item input[type="radio"] {
     vertical-align: text-bottom;
-    /*margin: .083em auto;*/ /* vertical adjustment. Need to check on all devices */
+    margin: 1px auto; /* vertical adjustment. Need to check on all devices */
 }
 .item label {
     margin-left: .5em;
@@ -134,7 +127,7 @@ textarea {
     .item input[type="checkbox"],
     .item input[type="radio"] {
         vertical-align: text-bottom;
-        margin: .0415em auto; /* vertical adjustment. Need to check on all devices */
+        margin: 0 auto; /* vertical adjustment. Need to check on all devices */
     }
 }
 
