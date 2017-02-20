@@ -78,17 +78,19 @@ textarea {
 .item {
     padding: .25em 1em;
     box-sizing: border-box;
-    min-width: 10em;
 }
 
 .item:hover {
     background-color: #6D8189;
 }
 
-.item:hover {
+.item:hover label {
     color: #FFF;
 }
 
+.item input[checkbox] {
+    vertical-align: text-top;
+}
 .item label {
     margin-left: .5em;
 }
