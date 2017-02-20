@@ -138,7 +138,7 @@ textarea {
     .item input[type="checkbox"],
     .item input[type="radio"] {
         vertical-align: text-bottom;
-        margin: .0415em auto; /* vertical adjustment. Need to check on all devices */
+        margin: 2px auto; /* vertical adjustment. Need to check on all devices */
     }
 }
 
