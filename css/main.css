@@ -62,7 +62,10 @@ textarea {
     border: 1px solid gray;
 }
 
-
+.cb-align {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
