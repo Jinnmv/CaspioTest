@@ -71,8 +71,8 @@ textarea {
 }
 
 .cb-align {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2em auto;
+    border: 1px solid #AAA;
 }
 
 .item {
