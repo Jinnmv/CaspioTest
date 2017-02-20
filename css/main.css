@@ -77,9 +77,12 @@ textarea {
 
 .cb-align .item {
     padding: 0 1em;
-    
+    height: 2em;
 }
 
+.item label {
+    margin-left: .5em;
+}
 
 
 
