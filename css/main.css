@@ -98,7 +98,8 @@ textarea {
     color: #FFF;
 }
 
-.item input[type="checkbox"] {
+.item input[type="checkbox"],
+.item input[type="radio"] {
     vertical-align: text-bottom;
     position: relative;
     top: -1px;
