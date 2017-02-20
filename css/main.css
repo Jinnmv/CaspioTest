@@ -70,7 +70,7 @@ textarea {
     border: 1px solid gray;
 }
 
-.cb-align {
+.cb-align, .rb-align {
     margin: 2em auto;
     border: 1px solid #CCC;
     width: 12em;
