@@ -121,8 +121,8 @@ body {
   border: 1px solid #eaeaea;
   /*display: flex;
   align-items: center;
-  justify-content: center;*/
-  min-height: 200px;
+  justify-content: center;
+  min-height: 200px;*/
   
   /* Flex Fallback */
   margin-left: 5px;
