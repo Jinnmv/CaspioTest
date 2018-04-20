@@ -119,8 +119,8 @@ body {
   /* Demo-Specific Styles */
   border: 1px solid #eaeaea;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;
+  justify-content: center;*/
   min-height: 200px;
   
   /* Flex Fallback */
