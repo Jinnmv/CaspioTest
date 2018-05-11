@@ -29,7 +29,31 @@
                 }
             }
         }
-        return columns;
+      
+        // CREATE DYNAMIC TABLE.
+        var table = document.createElement("table");
+      
+        // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+        var tr = table.insertRow(-1);                   // TABLE ROW.
+
+        for (var i = 0; i < columns.length; i++) {
+            var th = document.createElement("th");      // TABLE HEADER.
+            th.innerHTML = columns[i];
+            tr.appendChild(th);
+        }
+
+        // ADD JSON DATA TO THE TABLE AS ROWS.
+        for (var i = 0; i < results.length; i++) {
+
+            tr = table.insertRow(-1);
+
+            for (var j = 0; j < columns.length; j++) {
+                var tabCell = tr.insertCell(-1);
+                tabCell.innerHTML = results[i][columns[j]];
+            }
+        }
+      
+        return table;
     }
   
   
@@ -39,7 +63,9 @@ loadJSON(function(response) {
     //jsonresponse = JSON.parse(response);
     console.log('json loaded');
     
-    console.log(jsonToTable(response));
+    var divContainer = document.getElementById("showData");
+    divContainer.innerHTML = "";
+    divContainer.appendChild(jsonToTable(response));
     
     // Assuming json data is wrapped in square brackets as Drew suggests
     //console.log(jsonresponse[0].name);
