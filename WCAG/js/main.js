@@ -64,7 +64,7 @@ loadJSON(function(response) {
     console.log('json loaded');
     
     var divContainer = document.getElementById("showData");
-    divContainer.innerHTML = "";
+    //divContainer.innerHTML = "";
     divContainer.appendChild(jsonToTable(response));
     
     // Assuming json data is wrapped in square brackets as Drew suggests
