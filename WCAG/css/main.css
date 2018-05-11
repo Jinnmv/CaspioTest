@@ -78,7 +78,7 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
+textarea { 
     resize: vertical;
 }
 
@@ -117,9 +117,12 @@ body {
 
 h1 {
   font-size: 1.2em;
-
 }
 
+
+h2 {
+  font-size: 1.1em;
+}
 
 
 
