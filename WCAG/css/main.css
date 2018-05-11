@@ -127,7 +127,17 @@ h2 {
   margin-bottom: 1em;
 }
 
+.lang {
+   text-align: right;
+}
+
 .lang ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.lang ul li {
   display: inline-block;
 }
 
