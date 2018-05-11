@@ -109,10 +109,10 @@ body {
   margin: auto;
 }
 
-.search, .result {
+.search, .results {
   /* Demo-Specific Styles */
   border: 1px solid #eaeaea;
-  padding: 0 .67em;
+  padding: .67em;
 }
 
 h1 {
