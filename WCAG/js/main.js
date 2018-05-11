@@ -22,10 +22,10 @@
         
         // EXTRACT VALUE FOR HTML HEADER
         var columns = [];
-        for (record in results) {
-            for (field in record) {
-                if (columns.indexOf(field) === -1) {
-                    columns.push(field);
+        for (var i = 0; i < results.length; i++) {
+            for (var key in results[i]) {
+                if (columns.indexOf(key) === -1) {
+                    columns.push(key);
                 }
             }
         }
